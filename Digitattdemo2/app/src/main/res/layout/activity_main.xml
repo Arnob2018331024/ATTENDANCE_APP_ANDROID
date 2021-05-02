@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="8dp"
+    android:weightSum="4"
+    android:gravity="center"
+
+    >
+
+    <TextView
+        android:id="@+id/r"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Hello World!"
+        android:typeface="monospace"
+       android:textColor="#FCFFFF"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="8sp"
+        /><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+>
+    <Button
+        android:id="@+id/p"
+        android:layout_weight="1"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="Present"/>
+    <Button
+        android:id="@+id/a"
+        android:layout_weight="1"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="Absent"/>
+
+</LinearLayout>
+</LinearLayout>
